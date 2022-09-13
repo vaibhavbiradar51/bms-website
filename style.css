@@ -807,7 +807,7 @@ widget area css
      background-attachment: fixed;
      position: relative;
      height: 100%;
-     background-image: url(assets/img/cta/cta-bg.jpg);
+     background-image: url(assets/images/gallery-images/img-2.jpg);
 }
  .cta-bg:before {
      content: "";
@@ -1409,6 +1409,7 @@ widget area css
 }
  .footer-widget.widget-1 .footer-logo {
      margin-bottom: 40px;
+     margin-right: 20%;
 }
  .footer-widget.widget-1 p {
      color: #777777;
@@ -2089,4 +2090,10 @@ widget area css
  .gallery-all-img a:hover {
      opacity: .5;
      -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=50)";
+}
+
+
+.fluid-about{
+    width: 570px !important;
+    height: 312px !important;
 }

@@ -251,7 +251,7 @@ widget area css
 }
  .tractor-lang .nice-select .list {
      background: #fff;
-     color: #ffab00;
+     color: #d8ca24;
      border-radius: 0;
      width: 100px;
 }
@@ -288,7 +288,7 @@ widget area css
      margin-left: 20px;
 }
  .header-middle-short-info li i {
-     background: #ffab00;
+     background: #d8ca24;
      color: #fff;
      width: 30px;
      height: 32px;
@@ -337,7 +337,7 @@ widget area css
      text-transform: uppercase;
 }
  .main-menu nav > ul > li:hover > a,.main-menu nav > ul > li.active > a{
-     color:#ffab00;
+     color:#d8ca24;
 }
  .white-header .main-menu nav > ul > li > a {
      color: #fff;
@@ -352,7 +352,7 @@ widget area css
 /* sub-menu */
  .main-menu nav > ul > li .sub-menu {
      background: #ffffff none repeat scroll 0 0;
-     border-top: 3px solid #ffab00;
+     border-top: 3px solid #d8ca24;
      box-shadow: 0 6px 12px rgba(0, 0, 0, 0.176);
      left: 0;
      opacity: 0;
@@ -386,12 +386,12 @@ widget area css
 }
  .main-menu nav > ul > li:hover > .sub-menu li > a:hover{
      color:#fff;
-     background:#ffab00;
+     background:#d8ca24;
 }
 /* sub-menu */
  .main-menu nav > ul > li > .sub-menu > li >.sub-menu{
     background: #ffffff none repeat scroll 0 0;
-     border-top: 3px solid #ffab00;
+     border-top: 3px solid #d8ca24;
      box-shadow: 0 6px 12px rgba(0, 0, 0, 0.176);
      left: 100%;
      opacity: 0;
@@ -461,10 +461,10 @@ widget area css
      z-index: 2;
 }
  .slid-bg-1 {
-     background-image: url(assets/img/slider/slider-1.jpg);
+     background-image: url(assets/img/slider/slider1.jpeg);
 }
  .slid-bg-2 {
-     background-image: url(assets/img/slider/slider-2.jpg);
+     background-image: url(assets/img/slider/slider2.jpeg);
 }
  .tractor-single-slider {
      background-position: center center;
@@ -493,7 +493,7 @@ widget area css
      line-height: 80px;
 }
  .tractor-single-slider h1 span {
-     color: #ffab00;
+     color: #d8ca24;
 }
  .tractor-single-slider p {
      color: #fff;
@@ -533,7 +533,7 @@ widget area css
      right: 15px;
 }
  .tractor-main-slider .owl-nav div:hover{
-     background: #ffab00;
+     background: #d8ca24;
 	     opacity: 1;
 }
 /* blocks services css */
@@ -580,7 +580,7 @@ widget area css
      transition: all .3s;
 }
  .single-blocks-services:hover .btn i{
-     background: #ffab00;
+     background: #d8ca24;
 }
 /* project area css */
  .project-wraper {
@@ -633,7 +633,7 @@ widget area css
      transition: all .3s;
 }
  .project-hvr .btn:hover i {
-     background: #ffab00;
+     background: #d8ca24;
 }
 /* project slider css */
  .project-slider .owl-nav div {
@@ -656,7 +656,7 @@ widget area css
      right: 30px;
 }
  .project-slider .owl-nav div:hover{
-     background: #ffab00;
+     background: #d8ca24;
 }
 /* about us css */
  .about-area h2{
@@ -739,13 +739,13 @@ widget area css
 }
  .single-counter {
      color: #fff;
-     border: 2px solid #ffab00;
+     border: 2px solid #d8ca24;
      padding: 40px 0;
 }
  .single-counter i {
      font-size: 50px;
      display: block;
-     color: #ffab00;
+     color: #d8ca24;
 }
  .single-counter .counter {
      font-family: Montserrat;
@@ -785,7 +785,7 @@ widget area css
      text-align: center;
      line-height: 50px;
      transform: rotate(45deg);
-     color: #ffab00;
+     color: #d8ca24;
 }
  .services-content {
      margin-left: 30px;
@@ -1067,7 +1067,7 @@ widget area css
      right: 0;
 }
  .all-testimonial-wraper .owl-nav div:hover{
-     background: #ffab00;
+     background: #d8ca24;
 }
 /* video and accordian css */
 /* video css */
@@ -1091,7 +1091,7 @@ widget area css
      position: absolute;
 }
  .video-hvr a {
-     background: #ffab00;
+     background: #d8ca24;
      display: inline-block;
      text-align: center;
      border-radius: 50%;
@@ -1130,7 +1130,7 @@ widget area css
      top: 50%;
      line-height: 1;
      margin-top: -10px;
-     color: #ffab00;
+     color: #d8ca24;
 }
  .tractour-accordian-wrapeer .card-header a.collapsed:after {
     font-family: "FontAwesome";
@@ -1142,7 +1142,7 @@ widget area css
      top: 50%;
      line-height: 1;
      margin-top: -10px;
-     color: #ffab00;
+     color: #d8ca24;
 }
  .tractour-accordian-wrapeer .card-header a.btn.btn-link{
     display: block;
@@ -1168,7 +1168,7 @@ widget area css
      border-radius: 4px 4px 0 0;
 }
  .blog-date {
-     background: #ffab00;
+     background: #d8ca24;
      display: inline-block;
      color: #fff;
      font-size: 14px;
@@ -1196,7 +1196,7 @@ widget area css
      margin: 12px 0;
      width: 100px;
      height: 5px;
-     background: #ffab00;
+     background: #d8ca24;
      display: block;
 }
  .blog-content p {
@@ -1217,7 +1217,7 @@ widget area css
 /* blog details css */
 .blog-content blockquote.blockquote {
      background: #f1f1f1;
-     border-left: 4px solid #ffab00;
+     border-left: 4px solid #d8ca24;
      padding: 15px;
      margin: 25px 0;
 }
@@ -1245,7 +1245,7 @@ widget area css
      color: #333333;
 }
  .post-tag li strong {
-     color: #ffab00;
+     color: #d8ca24;
      text-transform: capitalize;
 }
  .blog-share-icon {
@@ -1256,7 +1256,7 @@ widget area css
      font-family: Montserrat;
      font-size: 16px;
      font-weight: 700;
-     color: #ffab00;
+     color: #d8ca24;
 	 margin-right: -45px;
     transition: all .4s;
 }
@@ -1276,7 +1276,7 @@ widget area css
     visibility: visible;
 }
  .blog-share-icon a:hover {
-     color: #ffab00;
+     color: #d8ca24;
 }
  .post-heading p {
      margin-top: 20px;
@@ -1301,7 +1301,7 @@ widget area css
 .comments-avatar:after {
     content: "";
     position: absolute;
-    border: 2px solid #ffab00;
+    border: 2px solid #d8ca24;
     top: 0;
     left: 0;
     right: 0;
@@ -1341,7 +1341,7 @@ widget area css
      font-weight: 500;
      text-transform: capitalize;
      font-family: Montserrat;
-     color: #ffab00;
+     color: #d8ca24;
 }
  .comments-reply {
      padding-left: 130px;
@@ -1405,7 +1405,7 @@ widget area css
      bottom: 0;
      width: 80px;
      height: 4px;
-     background: #ffab00;
+     background: #d8ca24;
 }
  .footer-widget.widget-1 .footer-logo {
      margin-bottom: 40px;
@@ -1449,7 +1449,7 @@ widget area css
      transition: all .2s;
 }
  .tag-list li a:hover {
-     background: #ffab00;
+     background: #d8ca24;
      color: #fff;
 }
  .office-address h4 a {
@@ -1473,7 +1473,7 @@ widget area css
  .footer-social li a{
      font-size: 12px;
      color: #fff;
-     background: #ffab00;
+     background: #d8ca24;
      padding: 10px 14px;
      border-radius: 2px;
      text-align: center;
@@ -1494,7 +1494,7 @@ widget area css
      text-transform: uppercase;
 }
  .copy-right a span {
-     color: #ffab00;
+     color: #d8ca24;
 }
  .copy-right {
      font-family: Open Sans;
@@ -1538,11 +1538,11 @@ widget area css
      float: left;
 }
  .tractour-breadcroumb h4 a {
-     color: #ffab00;
+     color: #d8ca24;
      text-transform: capitalize;
 }
  .tractour-breadcroumb h4 a:hover {
-     color: #ffab00;
+     color: #d8ca24;
 }
 /* shop area css */
  .sho-result p {
@@ -1576,7 +1576,7 @@ widget area css
      visibility: visible;
 }
  .product-rating i {
-     color: #ffab00;
+     color: #d8ca24;
 }
  .sale-tag {
      position: absolute;
@@ -1585,7 +1585,7 @@ widget area css
      padding: 15px;
 }
  .sale-tag span {
-     background: #ffab00;
+     background: #d8ca24;
      color: #fff;
      text-transform: uppercase;
      font-weight: 600;
@@ -1639,7 +1639,7 @@ widget area css
      margin: 10px 0;
 }
  .product-action li a {
-     color: #ffab00;
+     color: #d8ca24;
      display: block;
      background: transparent;
      border: 1px solid #fff;
@@ -1657,7 +1657,7 @@ widget area css
 }
  .product-action li:hover a {
      color: #fff;
-     background: #ffab00;
+     background: #d8ca24;
 }
  .product-action li a i {
      -webkit-transform: rotate(45deg);
@@ -1793,7 +1793,7 @@ widget area css
      font-size: 18px;
 }
  .contact-text-info li strong span {
-     color: #ffab00;
+     color: #d8ca24;
      display: inline-block;
      font-size: 18px;
      line-height: 30px;
@@ -1819,7 +1819,7 @@ widget area css
      top: 0;
      right: 0;
      padding: 11px 30px;
-     background: #ffab00;
+     background: #d8ca24;
      color: #fff;
      text-align: center;
      vertical-align: middle;
@@ -1906,7 +1906,7 @@ widget area css
 }
  .wdg-search-form input :focus {
      background: transparent !important;
-     border: 1px solid #ffab00;
+     border: 1px solid #d8ca24;
 }
 /* widget latest post css */
  .single-wdg-post {
@@ -1931,7 +1931,7 @@ widget area css
      line-height: 20px;
 }
  .single-wdg-post:hover .wdg-post-content h5 a {
-     color: #ffab00;
+     color: #d8ca24;
 }
  .wdg-post-content span {
      margin-top: 10px;
@@ -1957,7 +1957,7 @@ widget area css
      text-transform: capitalize;
 }
  .wdg-post-archive li:hover a {
-     color: #ffab00;
+     color: #d8ca24;
 }
  .wdg-post-archive li a i {
      margin-right: 10px;
@@ -1997,7 +1997,7 @@ widget area css
      font-weight: 600;
 }
  .rel-product-wraper li:hover h5 a {
-     color: #ffab00;
+     color: #d8ca24;
 }
  .rel-product-content h5 a span {
      display: block;
@@ -2043,7 +2043,7 @@ widget area css
      border: 0 none;
      margin-top: 20px;
      display: inline-block;
-     background: #ffab00;
+     background: #d8ca24;
      text-align: center;
      color: #fff;
      padding: 6px;
@@ -2051,7 +2051,7 @@ widget area css
      font-weight: 600;
 }
  .ui-slider-horizontal .ui-slider-range {
-     background: #ffab00;
+     background: #d8ca24;
 }
 /* widget follow us css */
  .wdg-follow-us li {
@@ -2073,7 +2073,7 @@ widget area css
 }
  .wdg-follow-us li a:hover {
      color: #fff;
-     background: #ffab00;
+     background: #d8ca24;
 }
 /* widget gallery archive css */
  .gallery-all-img a {

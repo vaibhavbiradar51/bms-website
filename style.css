@@ -597,17 +597,13 @@ widget area css
      position: absolute;
      left: 0;
      right: 0;
-     bottom: -20px;
+     bottom: -0;
      background: rgba(0, 0, 0, .80);
      transition: all .3s;
-     visibility: hidden;
-     opacity: 0;
-}
- .single-project:hover .project-hvr {
-     bottom: 0;
      visibility: visible;
      opacity: 1;
 }
+
  .project-hvr > a > h3 {
      color: #fff;
      font-size: 16px;
@@ -724,7 +720,7 @@ widget area css
      background-attachment: fixed;
      position: relative;
      height: 100%;
-     background-image: url(assets/img/counter/counter-bg.jpg);
+     background-image: url(assets/images/gallery-images/img-2.jpg);
 }
  .counter-bg:before {
      content: "";
@@ -1389,6 +1385,7 @@ widget area css
      right: 0;
 }
 /* footer area css */
+
  .footer-widget > h3 {
     font-weight: 600;
      color: #000000;
@@ -1510,7 +1507,7 @@ widget area css
      background-size: cover;
      position: relative;
      height: 300px;
-     background-image: url(assets/img/blocks/bird.jpeg);
+     background-image: url(assets/images/gallery-images/img-2.jpg);
      padding: 130px 0 20px;
 }
  .breadcroumb-bg:before {
@@ -2096,4 +2093,8 @@ widget area css
 .fluid-about{
     width: 570px !important;
     height: 312px !important;
+}
+
+.email-address{
+    text-transform: none !important;
 }

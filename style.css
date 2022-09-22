@@ -1303,7 +1303,8 @@ widget area css
     right: 0;
     bottom: 0;
     display: block;
-    transform: rotate(45deg);
+    transform: rotate(180deg);
+    margin: -10px !important;
 }
  .comments-avatar img {
      width: 100px;

@@ -146,10 +146,11 @@ class Footer extends HTMLElement{
                         <div class="office-address border-bottom mb-20 pb-20">
                             <h4><a href="#">SMK Safety Nets</a></h4>
                             <p>
-                                <a href="mailto:smkenterprises2001@gmail.com">smkenterprises2001@gmail.com</a>
+                                <a href="mailto:smkenterprises2001@gmail.com" style="text-decoration:none;color:black">smkenterprises2001@gmail.com</a>
                             </p>
+                            <br>
                             <p>
-                                <a href="tel:9866204199">9866204199</a>
+                                <a href="tel:9866204199" style="text-decoration:none;color:black">Mobile - +91 9866204199</a>
                             </p>
                         </div>
                         <ul class="footer-social">

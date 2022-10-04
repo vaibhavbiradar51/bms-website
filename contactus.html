@@ -14,54 +14,9 @@
 </head>
 
 <body>
-    <!-- preloader -->
-    <div class="tractour-loader">
-        <div class="main-preloader">
-            <div class="spinner">
-                <div class="double-bounce1"></div>
-                <div class="double-bounce2"></div>
-            </div>
-        </div>
-    </div>
+    <app-preloader></app-preloader>
 
-    <div class="header-middle-area sec-p-30">
-        <div class="container">
-            <div class="row">
-                <div class="col-md-5">
-                    <div class="header-middle-logo"><a href=""><img src="./assets/images/main-logo.png"
-                                alt="SMK Safety nets" class="img-fluid" height="350" width="350"></a></div>
-                </div>
-
-                <div class="col-md-7">
-                    <ul class="header-middle-short-info float-right owl-carousel owl-theme">
-                        <li>
-                            <i class="fa fa-phone"></i>
-                            <div class="short-info">
-                                phone number:
-                                <h4>+91 5788452695</h4>
-                            </div>
-                        </li>
-
-                        <li>
-                            <i class="fa fa-at"></i>
-                            <div class="short-info">
-                                email address:
-                                <h4 class="email-address">bjt@gmail.com</h4>
-                            </div>
-                        </li>
-
-                        <li>
-                            <i class="fa fa-map-marker"></i>
-                            <div class="short-info">
-                                Location:
-                                <h4>Andhra Pradesh</h4>
-                            </div>
-                        </li>
-                    </ul>
-                </div>
-            </div>
-        </div>
-    </div>
+    <app-contactheader></app-contactheader>
 
     <div class="hero-area">
         <div class="main-menu-area">
@@ -70,97 +25,7 @@
                     <div class="row">
                         <div class="col-md-9 col-sm-9 ">
                             <div class="main-menu float-right">
-                                <nav id="mobile-menu" style="display: block;">
-                                    <ul>
-                                        <li><a href="./index.html">home</a></li>
-                                        <li><a href="">About</a></li>
-                                        <li>
-                                            <a href="#">
-                                                Services
-                                                <i class="fa fa-angle-down"></i>
-                                            </a>
-                                            <ul class="sub-menu text-left">
-                                                <li><a href="./birdssafety.html">Balcony safety Nets</a>
-                                                    <ul class="sub-menu text-left">
-                                                        <li><a href="#">Children safety nets</a></li>
-                                                        <li><a href="#">Pets safety nets</a></li>
-                                                        <li><a href="#">Grill safety nets</a></li>
-                                                    </ul>
-                                                </li>
-                                                <li>
-                                                    <a href="#">Bird Nets</a>
-                                                    <ul class="sub-menu text-left">
-                                                        <li><a href="#">Anti pigeon nets</a></li>
-                                                        <li><a href="#">Anti crow nets</a></li>
-                                                        <li><a href="#">Anti parrot nets</a></li>
-                                                        <li><a href="#">Anti sparrow nets</a></li>
-                                                    </ul>
-                                                </li>
-                                                <li>
-                                                    <a href="#">Animal nets</a>
-                                                    <ul class="sub-menu text-left">
-                                                        <li><a href="#">Anti monkey nets</a></li>
-                                                        <li><a href="#">Anti cat nets</a></li>
-                                                    </ul>
-                                                </li>
-                                                <li>
-                                                    <a href="#">Duct area safety nets</a>
-                                                    <ul class="sub-menu text-left">
-                                                        <li><a href="#">Terrace safety nets</a></li>
-                                                        <li><a href="#">Glass safety nets</a></li>
-                                                        <li><a href="#">Grill safety nets</a></li>
-                                                    </ul>
-                                                </li>
-                                                <li>
-                                                    <a href="#">Sports nets</a>
-                                                    <ul class="sub-menu text-left">
-                                                        <li><a href="#">Cricket nets</a></li>
-                                                        <li><a href="#">Football nets</a></li>
-                                                        <li><a href="#">Vollyball nets</a></li>
-                                                        <li><a href="#">Hockey nets</a></li>
-                                                    </ul>
-                                                </li>
-                                                <li>
-                                                    <a href="#">Agricultural nets</a>
-                                                    <ul class="sub-menu text-left">
-                                                        <li><a href="#">Green shade nets</a></li>
-                                                        <li><a href="#">Coconut tree safety nets</a></li>
-                                                        <li><a href="#">Plant safety nets</a></li>
-                                                        <li><a href="#">Round field safety nets</a></li>
-                                                    </ul>
-                                                </li>
-                                                <li>
-                                                    <a href="#">Building safety nets</a>
-                                                    <ul class="sub-menu text-left">
-                                                        <li><a href="#">Stair case safety nets</a></li>
-                                                        <li><a href="#">Corridor safety nets</a></li>
-                                                        <li><a href="#">Swimming pool safety nets</a></li>
-                                                    </ul>
-                                                </li>
-                                                <li>
-                                                    <a href="#">Parking safety nets</a>
-                                                    <ul class="sub-menu text-left">
-                                                        <li><a href="#">Car safety nets</a></li>
-                                                        <li><a href="#">Bike safety nets</a></li>
-                                                    </ul>
-                                                </li>
-                                                <li>
-                                                    <a href="#">Industrial safety nets</a>
-                                                    <ul class="sub-menu text-left">
-                                                        <li><a href="#">Construction safety nets</a></li>
-                                                        <li><a href="#">Workers safety nets</a></li>
-                                                    </ul>
-                                                </li>
-                                            </ul>
-                                        </li>
-                                        <li>
-                                            <a href="">Gallery</a>
-                                        </li>
-                                        <li>
-                                            <a href="./contactus.html">Contact Us</a>
-                                        </li>
-                                    </ul>
-                                </nav>
+                                <app-navbar></app-navbar>
                             </div>
                             <div class="mobile-menu"></div>
                         </div>
@@ -168,101 +33,19 @@
                 </div>
             </div>
         </div>
-
-        <div class="slider-area">
-            <div class="tractor-main-slider owl-carousel owl-theme">
-                <div class="tractor-single-slider slid-bg-1">
-                    <div class="tractor-single-table">
-                        <div class="tractor-single-tablecell">
-                            <div class="container">
-                                <div class="row">
-                                    <div class="col-md-12">
-                                        <h1><span>SMK Enterprises</span><br />Safety Nets</h1>
-                                        <p>lorem ipsum dolor sit amt, consectet adop adipisicing elit, sed do eiusmod
-                                            <br>teporara incididunt ugt labore.
-                                        </p>
-                                        <a href="#" class="btn btn-type-1">our services</a>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                <div class="tractor-single-slider slid-bg-2">
-                    <div class="tractor-single-table">
-                        <div class="tractor-single-tablecell">
-                            <div class="container">
-                                <div class="row">
-                                    <div class="col-md-12">
-                                        <h1><span>SMK</span><br />choice of people</h1>
-                                        <p>lorem ipsum dolor sit amt, consectet adop adipisicing elit, sed do eiusmod
-                                            <br>teporara incididunt ugt labore.
-                                        </p>
-                                        <a href="#" class="btn btn-type-1">our services</a>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-
-        <div class="blocks-services-area text-center mb-100 minus-t-100 wow fadeInUp">
-            <div class="container">
-                <div class="row">
-                    <div class="col-md-4">
-                        <div class="single-blocks-services">
-                            <div class="single-blocks-img">
-                                <img src="assets/img/blocks/balcony.jpeg" alt="" class="img-fluid" />
-                            </div>
-                            <h3><a href="#">Cricket safety Nets</a></h3>
-                            <p>On the other hand, we denounce with righteous indignation and dislike men who are so
-                                beguiled and demor</p>
-                            <a href="#" class="btn"><i class="fa fa-angle-right"></i></a>
-                        </div>
-                    </div>
-
-                    <div class="col-md-4">
-                        <div class="single-blocks-services">
-                            <div class="single-blocks-img">
-                                <img src="assets/img/blocks/balcony.jpeg" alt="" class="img-fluid" />
-                            </div>
-                            <h3><a href="#">Birds safety Nets</a></h3>
-                            <p>On the other hand, we denounce with righteous indignation and dislike men who are so
-                                beguiled and demor</p>
-                            <a href="#" class="btn"><i class="fa fa-angle-right"></i></a>
-                        </div>
-                    </div>
-
-                    <div class="col-md-4">
-                        <div class="single-blocks-services">
-                            <div class="single-blocks-img">
-                                <img src="assets/img/blocks/balcony.jpeg" alt="" class="img-fluid" />
-                            </div>
-                            <h3><a href="#">Balcony safety Nets</a></h3>
-                            <p>On the other hand, we denounce with righteous indignation and dislike men who are so
-                                beguiled and demor</p>
-                            <a href="#" class="btn"><i class="fa fa-angle-right"></i></a>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-
     </div>
 
 
-        <div class="tractour-breadcroumb breadcroumb-bg text-center">
-            <div class="container">
-                <div class="row">
-                    <div class="col-md-12">
-                        <h2>contact us</h2>
-                        <h4><a href="index.html">home </a>/ contact us</h4>
-                    </div>
+    <div class="tractour-breadcroumb breadcroumb-bg text-center">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-12">
+                    <h2>contact us</h2>
+                    <h4><a href="index.html">home </a>/ contact us</h4>
                 </div>
             </div>
         </div>
+    </div>
 
 
     </div>
@@ -389,6 +172,7 @@
     <script src="assets/js/ajax-form.js"></script>
     <script src="assets/js/plugins.js"></script>
     <script src="assets/js/main.js"></script>
+    <script src="./components.js"></script>
 </body>
 
 

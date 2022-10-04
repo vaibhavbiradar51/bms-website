@@ -91,7 +91,7 @@ class Navbar extends HTMLElement{
                 <a href="./contactus.html">Contact Us</a>
             </li>
         </ul>
-        </nav>
+    </nav>
         `
     }
 }
@@ -115,13 +115,11 @@ class Footer extends HTMLElement{
                     <div class="footer-widget widget-2">
                         <h3>Our Services</h3>
                         <ul class="footer-popu-link">
-                            <li><a href="#">Children Safety Nets</a></li>
-                            <li><a href="#">Pets Safety Nets</a></li>
-                            <li><a href="#">Grill Safety Nets</a></li>
-                            <li><a href="#">Anti Pigeon Nets</a></li>
-                            <li><a href="#">Anti Crow Nets</a></li>
-                            <li><a href="#">Anti Parrot Nets</a></li>
-                            <li><a href="#">Anti Sparrow Nets</a></li>
+                            <li><a href="#">Balcony Safety Nets</a></li>
+                            <li><a href="#">Bird Nets</a></li>
+                            <li><a href="#">Animal Nets</a></li>
+                            <li><a href="#">Duct Area Nets</a></li>
+                            <li><a href="#">Sports Nets</a></li>
                         </ul>
                     </div>
                 </div>
@@ -130,13 +128,12 @@ class Footer extends HTMLElement{
                     <div class="footer-widget widget-3">
                         <h3>Our Services</h3>
                         <ul class="footer-popu-link">
-                            <li><a href="#">Anti Monkey Nets</a></li>
-                            <li><a href="#">Anti Cat Nets</a></li>
-                            <li><a href="#">Terrace Safety Nets</a></li>
-                            <li><a href="#">Glass Safety Nets</a></li>
-                            <li><a href="#">Grill Safety Nets</a></li>
-                            <li><a href="#">Cricket Nets</a></li>
-                            <li><a href="#">Football Nets</a></li>
+                        
+                        
+                        <li><a href="#">Agricultural Nets</a></li>
+                        <li><a href="#">Building Safety Nets</a></li>
+                            <li><a href="#">Parking Safety Nets</a></li>
+                            <li><a href="#">Industrial Nets</a></li>
                         </ul>
                     </div>
                 </div>
@@ -147,14 +144,18 @@ class Footer extends HTMLElement{
                     <div class="footer-widget widget-3">
                         <h3>contact info</h3>
                         <div class="office-address border-bottom mb-20 pb-20">
-                            <h4><a href="#">office one</a></h4>
-                            <p>123 demom js, khulna kh, chowrasta, jessore</p>
-                            <p>+91 7548985632</p>
+                            <h4><a href="#">SMK Safety Nets</a></h4>
+                            <p>
+                                <a href="mailto:smkenterprises2001@gmail.com">smkenterprises2001@gmail.com</a>
+                            </p>
+                            <p>
+                                <a href="tel:9866204199">9866204199</a>
+                            </p>
                         </div>
                         <ul class="footer-social">
-                            <li><a class="bg-color4" href="#"><i class="fa fa-whatsapp"></i></a></li>
-                            <li><a class="bg-color6" href="#"><i class="fa fa-facebook"></i></a></li>
-                            <li><a class="bg-color5" href="#"><i class="fa fa-instagram"></i></a></li>
+                            <li><a class="bg-color4" href="tel:9866204199"><i class="fa fa-whatsapp"></i></a></li>
+                            <li><a class="bg-color6" href="https://youtube.com/channel/UCPgEiwoy0s5_JJf_tEJ3uZA" target="__blank"><i class="fa fa-youtube"></i></a></li>
+                            <li><a class="bg-color5" href="https://www.instagram.com/p/CjS_qlVPiCe/?igshid=YmMyMTA2M2Y=" target="__blank"><i class="fa fa-instagram"></i></a></li>
                         </ul>
                     </div>
                 </div>
@@ -184,7 +185,9 @@ class ContactInfoHeader extends HTMLElement{
     connectedCallback(){
         this.innerHTML = `
         <div class="header-middle-area sec-p-30">
+        
         <div class="container">
+        
             <div class="row">
                 <div class="col-md-5">
                     <div class="header-middle-logo"><a href=""><img src="./assets/images/main-logo.png"
@@ -192,12 +195,17 @@ class ContactInfoHeader extends HTMLElement{
                 </div>
 
                 <div class="col-md-7">
+                
                     <ul class="header-middle-short-info float-right owl-carousel owl-theme">
                         <li>
                             <i class="fa fa-phone"></i>
                             <div class="short-info">
                                 phone number:
-                                <h4>+91 5788452695</h4>
+                                <h4>
+                                <a href="tel:9866204199">
+                                +91 9866204199
+                                </a>
+                                </h4>
                             </div>
                         </li>
 
@@ -205,18 +213,18 @@ class ContactInfoHeader extends HTMLElement{
                             <i class="fa fa-at"></i>
                             <div class="short-info">
                                 email address:
-                                <h4 class="email-address">bjt@gmail.com</h4>
+                               
+                                <h4 class="email-address">
+                                <a href="mailto:smkenterprises2001@gmail.com">
+                                 smkenterprises2001@gmail.com
+                                 </a>
+                                </h4>
                             </div>
                         </li>
 
-                        <li>
-                            <i class="fa fa-map-marker"></i>
-                            <div class="short-info">
-                                Location:
-                                <h4>Andhra Pradesh</h4>
-                            </div>
-                        </li>
+               
                     </ul>
+                    <marquee>Avaliable Locations - Hyderabad , Chennai , Kolkata , Banglore , Delhi , Mumbai , Jaipur and all across India  </marquee>
                 </div>
             </div>
         </div>

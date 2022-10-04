@@ -464,7 +464,10 @@ widget area css
      background-image: url(assets/img/slider/slider1.jpeg);
 }
  .slid-bg-2 {
-     background-image: url(assets/img/slider/slider2.jpeg);
+     background-image: url(assets/images/slider-one.jpg);
+}
+.slid-bg-3 {
+    background-image: url(assets/images/slider-two.jpg);
 }
  .tractor-single-slider {
      background-position: center center;
@@ -480,9 +483,9 @@ widget area css
      width: 100%;
      height: 100%;
      position: absolute;
-     background: -moz-linear-gradient(left, rgba(0,0,0,0.87) 0%, rgba(0,0,0,0.87) 50%, rgba(0,0,0,0) 100%);
+    
      background: -webkit-linear-gradient(left, rgba(0,0,0,0.87) 0%,rgba(0,0,0,0.87) 50%,rgba(0,0,0,0) 100%);
-     background: linear-gradient(to right, rgba(0,0,0,0.87) 0%,rgba(0,0,0,0.87) 50%,rgba(0,0,0,0) 100%);
+    
      filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#de000000', endColorstr='#00000000',GradientType=1 );
 }
  .tractor-single-slider h1 {
@@ -2098,4 +2101,9 @@ widget area css
 
 .email-address{
     text-transform: none !important;
+}
+
+.more-important-services{
+    float: right;
+    margin-right: 5%;
 }

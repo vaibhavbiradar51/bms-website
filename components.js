@@ -153,7 +153,8 @@ class Footer extends HTMLElement{
                             </p>
                         </div>
                         <ul class="footer-social">
-                            <li><a class="bg-color4" href="tel:9866204199"><i class="fa fa-whatsapp"></i></a></li>
+                            <li><a class="bg-color4" href="https://api.whatsapp.com/send?phone=919866204199"><i class="fa fa-whatsapp"></i></a></li>
+                            <li><a class="bg-color5" href="https://t.me/smksafetynets"><i class="fa fa-telegram"></i></a></li>
                             <li><a class="bg-color6" href="https://youtube.com/channel/UCPgEiwoy0s5_JJf_tEJ3uZA" target="__blank"><i class="fa fa-youtube"></i></a></li>
                             <li><a class="bg-color5" href="https://www.instagram.com/p/CjS_qlVPiCe/?igshid=YmMyMTA2M2Y=" target="__blank"><i class="fa fa-instagram"></i></a></li>
                         </ul>

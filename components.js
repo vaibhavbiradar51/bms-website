@@ -4,88 +4,87 @@ class Navbar extends HTMLElement{
         <nav id="mobile-menu" style="display: block;">
         <ul>
             <li><a href="./index.html">home</a></li>
-            <li><a href="./about.html">About</a></li>
             <li>
                 <a>
                     Services
                     <i class="fa fa-angle-down"></i>
                 </a>
                 <ul class="sub-menu text-left">
-                    <li><a>Balcony safety Nets</a>
+                    <li><a href="./balcony-nets.html#main">Balcony safety Nets</a>
                         <ul class="sub-menu text-left">
-                            <li><a>Children safety nets</a></li>
-                            <li><a>Pets safety nets</a></li>
-                            <li><a>Grill safety nets</a></li>
+                            <li><a href="./balcony-nets.html#main">Children safety nets</a></li>
+                            <li><a href="./balcony-nets.html#main">Pets safety nets</a></li>
+                            <li><a href="./balcony-nets.html#main">Grill safety nets</a></li>
                         </ul>
                     </li>
                     <li>
-                        <a>Bird Nets</a>
+                        <a href="./bird-nets.html#main">Bird Nets</a>
                         <ul class="sub-menu text-left">
-                            <li><a>Anti pigeon nets</a></li>
-                            <li><a>Anti crow nets</a></li>
-                            <li><a>Anti parrot nets</a></li>
-                            <li><a>Anti sparrow nets</a></li>
+                            <li><a href="./bird-nets.html#main">Anti pigeon nets</a></li>
+                            <li><a href="./bird-nets.html#main">Anti crow nets</a></li>
+                            <li><a href="./bird-nets.html#main">Anti parrot nets</a></li>
+                            <li><a href="./bird-nets.html#main">Anti sparrow nets</a></li>
                         </ul>
                     </li>
                     <li>
-                        <a>Animal nets</a>
+                        <a href="./animal-nets.html#main">Animal nets</a>
                         <ul class="sub-menu text-left">
-                            <li><a>Anti monkey nets</a></li>
-                            <li><a>Anti cat nets</a></li>
+                            <li><a href="./animal-nets.html#main">Anti monkey nets</a></li>
+                            <li><a href="./animal-nets.html#main">Anti cat nets</a></li>
                         </ul>
                     </li>
                     <li>
-                        <a>Duct area safety nets</a>
+                        <a href="./duct-area-nets.html#main">Duct area safety nets</a>
                         <ul class="sub-menu text-left">
-                            <li><a>Terrace safety nets</a></li>
-                            <li><a>Glass safety nets</a></li>
-                            <li><a>Grill safety nets</a></li>
+                            <li><a href="./duct-area-nets.html#main">Terrace safety nets</a></li>
+                            <li><a href="./duct-area-nets.html#main">Glass safety nets</a></li>
+                            <li><a href="./duct-area-nets.html#main">Grill safety nets</a></li>
                         </ul>
                     </li>
                     <li>
-                        <a>Sports nets</a>
+                        <a href="./sports-nets.html#main">Sports nets</a>
                         <ul class="sub-menu text-left">
-                            <li><a>Cricket nets</a></li>
-                            <li><a>Football nets</a></li>
-                            <li><a>Vollyball nets</a></li>
-                            <li><a>Hockey nets</a></li>
+                            <li><a href="./sports-nets.html#main">Cricket nets</a></li>
+                            <li><a href="./sports-nets.html#main">Football nets</a></li>
+                            <li><a href="./sports-nets.html#main">Vollyball nets</a></li>
+                            <li><a href="./sports-nets.html#main">Hockey nets</a></li>
                         </ul>
                     </li>
                     <li>
-                        <a>Agricultural nets</a>
+                        <a href="./agricultural-nets.html#main">Agricultural nets</a>
                         <ul class="sub-menu text-left">
-                            <li><a>Green shade nets</a></li>
-                            <li><a>Coconut tree safety nets</a></li>
-                            <li><a>Plant safety nets</a></li>
-                            <li><a>Round field safety nets</a></li>
+                            <li><a href="./agricultural-nets.html#main">Green shade nets</a></li>
+                            <li><a href="./agricultural-nets.html#main">Coconut tree safety nets</a></li>
+                            <li><a href="./agricultural-nets.html#main">Plant safety nets</a></li>
+                            <li><a href="./agricultural-nets.html#main">Round field safety nets</a></li>
                         </ul>
                     </li>
                     <li>
-                        <a>Building safety nets</a>
+                        <a href="./building-nets.html#main">Building safety nets</a>
                         <ul class="sub-menu text-left">
-                            <li><a>Stair case safety nets</a></li>
-                            <li><a>Corridor safety nets</a></li>
-                            <li><a>Swimming pool safety nets</a></li>
+                            <li><a href="./building-nets.html#main">Stair case safety nets</a></li>
+                            <li><a href="./building-nets.html#main">Corridor safety nets</a></li>
+                            <li><a href="./building-nets.html#main">Swimming pool safety nets</a></li>
                         </ul>
                     </li>
                     <li>
-                        <a>Parking safety nets</a>
+                        <a href="./parking-nets.html#main">Parking safety nets</a>
                         <ul class="sub-menu text-left">
-                            <li><a>Car safety nets</a></li>
-                            <li><a>Bike safety nets</a></li>
+                            <li><a href="./parking-nets.html#main">Car safety nets</a></li>
+                            <li><a href="./parking-nets.html#main">Bike safety nets</a></li>
                         </ul>
                     </li>
                     <li>
-                        <a>Industrial safety nets</a>
+                        <a href="./industrial-nets.html#main">Industrial safety nets</a>
                         <ul class="sub-menu text-left">
-                            <li><a>Construction safety nets</a></li>
-                            <li><a>Workers safety nets</a></li>
+                            <li><a href="./industrial-nets.html#main">Construction safety nets</a></li>
+                            <li><a href="./industrial-nets.html#main">Workers safety nets</a></li>
                         </ul>
                     </li>
                 </ul>
             </li>
             <li>
-                <a>Gallery</a>
+                <a href="./gallery.html">Gallery</a>
             </li>
             <li>
                 <a href="./contactus.html">Contact Us</a>
@@ -105,7 +104,7 @@ class Footer extends HTMLElement{
                 <div class="col-md-3 col-sm-6">
                     <div class="footer-widget widget-1">
                         <div class="footer-logo">
-                            <a href="#"><img src="assets/images/main-logo.png" alt="footer-logo"
+                            <a href="./index.html"><img src="assets/images/main-logo.png" alt="footer-logo"
                                     class="img-fluid" /></a>
                         </div>
                     </div>
@@ -115,11 +114,11 @@ class Footer extends HTMLElement{
                     <div class="footer-widget widget-2">
                         <h3>Our Services</h3>
                         <ul class="footer-popu-link">
-                            <li><a href="#">Balcony Safety Nets</a></li>
-                            <li><a href="#">Bird Nets</a></li>
-                            <li><a href="#">Animal Nets</a></li>
-                            <li><a href="#">Duct Area Nets</a></li>
-                            <li><a href="#">Sports Nets</a></li>
+                            <li><a href="./balcony-nets.html">Balcony Safety Nets</a></li>
+                            <li><a href="./bird-nets.html">Bird Nets</a></li>
+                            <li><a href="./animal-nets.html">Animal Nets</a></li>
+                            <li><a href="./duct-area-nets.html">Duct Area Nets</a></li>
+                            <li><a href="./sports-nets.html">Sports Nets</a></li>
                         </ul>
                     </div>
                 </div>
@@ -130,10 +129,10 @@ class Footer extends HTMLElement{
                         <ul class="footer-popu-link">
                         
                         
-                        <li><a href="#">Agricultural Nets</a></li>
-                        <li><a href="#">Building Safety Nets</a></li>
-                            <li><a href="#">Parking Safety Nets</a></li>
-                            <li><a href="#">Industrial Nets</a></li>
+                        <li><a href="./agricultural-nets.html">Agricultural Nets</a></li>
+                        <li><a href="./building-nets.html">Building Safety Nets</a></li>
+                            <li><a href="./parking-nets.html">Parking Safety Nets</a></li>
+                            <li><a href="./industrial-nets.html">Industrial Nets</a></li>
                         </ul>
                     </div>
                 </div>
@@ -192,7 +191,7 @@ class ContactInfoHeader extends HTMLElement{
         
             <div class="row">
                 <div class="col-md-5">
-                    <div class="header-middle-logo"><a href=""><img src="./assets/images/main-logo.png"
+                    <div class="header-middle-logo"><a href="./index.html"><img src="./assets/images/main-logo.png"
                                 alt="SMK Safety nets" class="img-fluid" height="350" width="350"></a></div>
                 </div>
 
@@ -235,7 +234,186 @@ class ContactInfoHeader extends HTMLElement{
     }
 }
 
+
+class ServicesSideMenu extends HTMLElement{
+    connectedCallback(){
+        this.innerHTML = `
+        <div class="single-sid-wdg">
+        <h4 class="sid-wdg-title">Types of Nets<span></span></h4>
+        <div class="sid-wdg-post">
+            <div class="single-wdg-post">
+                <div class="wdg-post-img">
+                    <a href="./balcony-nets.html#main">
+                        <img src="assets/images/services-images/balcony.jpg" alt="img"
+                            class="img-fluid">
+                    </a>
+                </div>
+                <div class="wdg-post-content">
+
+                    <h5><a href="./balcony-nets.html#main">Balcony Safety Nets</a></h5>
+                    <span>3 Types Avaliable</span>
+                </div>
+            </div>
+
+            <div class="single-wdg-post">
+                <div class="wdg-post-img">
+                    <a href="./bird-nets.html#main">
+                        <img src="assets/images/services-images/bird-nets.jpg" alt="img"
+                            class="img-fluid">
+                    </a>
+                </div>
+                <div class="wdg-post-content">
+
+                    <h5><a href="./bird-nets.html#main">Bird Safety Nets</a></h5>
+                    <span>4 Types Avaliable</span>
+                </div>
+            </div>
+
+            <div class="single-wdg-post">
+                <div class="wdg-post-img">
+                    <a href="./animal-nets.html#main">
+                        <img src="assets/images/services-images/animal-nets.jpg" alt="img"
+                            class="img-fluid">
+                    </a>
+                </div>
+                <div class="wdg-post-content">
+
+                    <h5><a href="./animal-nets.html#main">Animal Safety Nets</a></h5>
+                    <span>2 Types Avaliable</span>
+                </div>
+            </div>
+
+            <div class="single-wdg-post">
+                <div class="wdg-post-img">
+                    <a href="./duct-area-nets.html#main">
+                        <img src="assets/images/services-images/duct-area.jpg" alt="img"
+                            class="img-fluid">
+                    </a>
+                </div>
+                <div class="wdg-post-content">
+
+                    <h5><a href="./duct-area-nets.html#main">Duct Area Safety Nets</a></h5>
+                    <span>3 Types Avaliable</span>
+                </div>
+            </div>
+
+            <div class="single-wdg-post">
+                <div class="wdg-post-img">
+                    <a href="./sports-nets.html#main">
+                        <img src="assets/images/services-images/sports-nets.jpeg" alt="img"
+                            class="img-fluid">
+                    </a>
+                </div>
+                <div class="wdg-post-content">
+
+                    <h5><a href="./sports-nets.html#main">Sports Nets</a></h5>
+                    <span>4 Types Avaliable</span>
+                </div>
+            </div>
+
+            <div class="single-wdg-post">
+                <div class="wdg-post-img">
+                    <a href="./agricultural-nets.html#main">
+                        <img src="assets/images/services-images/agirculture-nets.jpg" alt="img"
+                            class="img-fluid">
+                    </a>
+                </div>
+                <div class="wdg-post-content">
+
+                    <h5><a href="./agricultural-nets.html#main">Agricultural Safety Nets</a></h5>
+                    <span>4 Types Avaliable</span>
+                </div>
+            </div>
+
+
+            <div class="single-wdg-post">
+                <div class="wdg-post-img">
+                    <a href="./building-nets.html#main">
+                        <img src="assets/images/services-images/building-nets.jpg" alt="img"
+                            class="img-fluid">
+                    </a>
+                </div>
+                <div class="wdg-post-content">
+
+                    <h5><a href="./building-nets.html#main">Building Safety Nets</a></h5>
+                    <span>3 Types Avaliable</span>
+                </div>
+            </div>
+
+            <div class="single-wdg-post">
+                <div class="wdg-post-img">
+                    <a href="./parking-nets.html#main">
+                        <img src="assets/images/services-images/parking-nets.jpg" alt="img"
+                            class="img-fluid">
+                    </a>
+                </div>
+                <div class="wdg-post-content">
+
+                    <h5><a href="./parking-nets.html#main">Parking Safety Nets</a></h5>
+                    <span>2 Types Avaliable</span>
+                </div>
+            </div>
+
+            <div class="single-wdg-post">
+                <div class="wdg-post-img">
+                    <a href="./industrial-nets.html#main">
+                        <img src="assets/images/services-images/industrial.jpg" alt="img"
+                            class="img-fluid">
+                    </a>
+                </div>
+                <div class="wdg-post-content">
+
+                    <h5><a href="./industrial-nets.html#main">Industrial Safety Nets</a></h5>
+                    <span>2 Types Avaliable</span>
+                </div>
+            </div>
+
+   
+
+    
+        </div>
+        </div>
+        `
+    }
+}
+
+class FollowUsWidget extends HTMLElement{
+    connectedCallback(){
+        this.innerHTML = `
+        <div class="single-sid-wdg">
+        <h4 class="sid-wdg-title"><strong>follow</strong> us</h4>
+        <ul class="wdg-follow-us">
+            <li><a href="https://api.whatsapp.com/send?phone=919866204199"><i class="fa fa-whatsapp"></i></a></li>
+            <li><a href="https://t.me/smksafetynets"><i class="fa fa-telegram"></i></a></li>
+            <li><a href="https://youtube.com/channel/UCPgEiwoy0s5_JJf_tEJ3uZA" target="__blank"><i class="fa fa-youtube"></i></a></li>
+            <li><a href="https://www.instagram.com/p/CjS_qlVPiCe/?igshid=YmMyMTA2M2Y=" target="__blank"><i class="fa fa-instagram"></i></a></li>
+            <li><a href="mailto:smkenterprises2001@gmail.com"><i class="fa fa-envelope"></i></a></li>
+        </ul>
+        </div>
+        `
+    }
+}
+
+class FloatingWidgets extends HTMLElement{
+    connectedCallback(){
+        this.innerHTML = `
+        <a class="whats-app" href="https://api.whatsapp.com/send?phone=919866204199" target="_blank">
+        <i class="fa fa-whatsapp"></i>
+        </a>
+        <a class="telegram" href="https://t.me/smksafetynets" target="_blank">
+            <i class="fa fa-telegram"></i>
+        </a>
+        <a class="call" href="tel:9866204199" target="_blank">
+            <i class="fa fa-phone"></i>
+        </a>
+        `
+    }
+}
+
 customElements.define("app-navbar", Navbar);
 customElements.define("app-footer", Footer);
 customElements.define("app-preloader", PreLoader);
 customElements.define("app-contactheader", ContactInfoHeader);
+customElements.define("app-sidemenu", ServicesSideMenu);
+customElements.define("app-social-media", FollowUsWidget);
+customElements.define("app-floating-widgets", FloatingWidgets);

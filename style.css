@@ -2157,3 +2157,7 @@ widget area css
     50% { opacity: 0;}
 }
 
+.blog-post-img img{
+    margin-right: 1%;
+    margin-bottom: 1%;
+}

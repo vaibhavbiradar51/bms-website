@@ -178,7 +178,7 @@
            	------------------------------*/
          $(".project-slider").owlCarousel({
              loop: true,
-             autoplay: false,
+             autoplay: true,autoplayTimeout: 3000,
              smartSpeed: 1000,
              dots: false,
              nav: true,

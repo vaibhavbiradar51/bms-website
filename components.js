@@ -149,11 +149,11 @@ class Footer extends HTMLElement{
                             </p>
                             <br>
                             <p>
-                                <a href="tel:9866204199" style="text-decoration:none;color:black">Mobile - +91 9866204199</a>
+                                <a href="tel:9900441699" style="text-decoration:none;color:black">Mobile - +91 9900441699</a>
                             </p>
                         </div>
                         <ul class="footer-social">
-                            <li><a class="bg-color4" href="https://api.whatsapp.com/send?phone=919866204199"><i class="fa fa-whatsapp"></i></a></li>
+                            <li><a class="bg-color4" href="https://api.whatsapp.com/send?phone=919900441699"><i class="fa fa-whatsapp"></i></a></li>
                             <li><a class="bg-color5" href="https://t.me/smksafetynets"><i class="fa fa-telegram"></i></a></li>
                             <li><a class="bg-color6" href="https://youtube.com/channel/UCPgEiwoy0s5_JJf_tEJ3uZA" target="__blank"><i class="fa fa-youtube"></i></a></li>
                             <li><a class="bg-color5" href="https://www.instagram.com/p/CjS_qlVPiCe/?igshid=YmMyMTA2M2Y=" target="__blank"><i class="fa fa-instagram"></i></a></li>
@@ -203,8 +203,8 @@ class ContactInfoHeader extends HTMLElement{
                             <div class="short-info">
                                 phone number:
                                 <h4>
-                                <a href="tel:9866204199">
-                                +91 9866204199
+                                <a href="tel:9900441699">
+                                +91 9900441699
                                 </a>
                                 </h4>
                             </div>
@@ -383,7 +383,7 @@ class FollowUsWidget extends HTMLElement{
         <div class="single-sid-wdg">
         <h4 class="sid-wdg-title"><strong>follow</strong> us</h4>
         <ul class="wdg-follow-us">
-            <li><a href="https://api.whatsapp.com/send?phone=919866204199"><i class="fa fa-whatsapp"></i></a></li>
+            <li><a href="https://api.whatsapp.com/send?phone=919900441699"><i class="fa fa-whatsapp"></i></a></li>
             <li><a href="https://t.me/smksafetynets"><i class="fa fa-telegram"></i></a></li>
             <li><a href="https://youtube.com/channel/UCPgEiwoy0s5_JJf_tEJ3uZA" target="__blank"><i class="fa fa-youtube"></i></a></li>
             <li><a href="https://www.instagram.com/p/CjS_qlVPiCe/?igshid=YmMyMTA2M2Y=" target="__blank"><i class="fa fa-instagram"></i></a></li>
@@ -397,13 +397,13 @@ class FollowUsWidget extends HTMLElement{
 class FloatingWidgets extends HTMLElement{
     connectedCallback(){
         this.innerHTML = `
-        <a class="whats-app" href="https://api.whatsapp.com/send?phone=919866204199" target="_blank">
+        <a class="whats-app" href="https://api.whatsapp.com/send?phone=919900441699" target="_blank">
         <i class="fa fa-whatsapp"></i>
         </a>
         <a class="telegram" href="https://t.me/smksafetynets" target="_blank">
             <i class="fa fa-telegram"></i>
         </a>
-        <a class="call" href="tel:9866204199" target="_blank">
+        <a class="call" href="tel:9900441699" target="_blank">
             <i class="fa fa-phone"></i>
         </a>
         `
